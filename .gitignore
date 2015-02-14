@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 node_modules
 .tmp
 .sass-cache
 bower_components
 dist
 /.project
-=======
-bower_components
-node_modules
->>>>>>> FETCH_HEAD

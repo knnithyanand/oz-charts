@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 First things first - This is a fork from chinmaymk/angular-charts
 Thanks for his great work, I am yet to add more features
 

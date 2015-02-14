@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "oz-charts",
   "version": "0.2.6",
   "authors": [
     "knnithyanand"
+=======
+  "name": "angular-charts",
+  "version": "0.2.6",
+  "authors": [
+    "chinmaymk"
+>>>>>>> FETCH_HEAD
   ],
   "description": "angular directives for common charts using d3",
   "keywords": [
@@ -20,7 +27,11 @@
     "tests"
   ],
   "main": [
+<<<<<<< HEAD
     "./dist/oz-charts.js"
+=======
+    "./dist/angular-charts.js"
+>>>>>>> FETCH_HEAD
   ],
   "dependencies": {
     "d3": "~3.3.10",
@@ -29,4 +40,8 @@
   "devDependencies": {
     "angular-mocks": "~1.2.16"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> FETCH_HEAD

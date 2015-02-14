@@ -1,3 +1,6 @@
+First things first - This is a fork from chinmaymk/angular-charts
+Thanks for his great work, I am yet to add more features
+
 ##Features
 1. One click chart change
 2. Tiny - 4.4kb minified and gzipped
@@ -7,18 +10,18 @@
 6. Callback events
 7. Simple data format
 
-[Download](https://github.com/chinmaymk/angular-charts/releases) | [Playground](http://plnkr.co/edit/T9J7bz?p=preview) | [Contribute](#contribute)
+[Download](https://github.com/knnithyanand/oz-charts/releases) | [Playground](http://plnkr.co/edit/T9J7bz?p=preview) | [Contribute](#contribute)
 
 ##Installation
-Grab the latest zip from [releases](https://github.com/chinmaymk/angular-charts/releases), copy ```angular-charts.min.js``` to web root, and refer it from page.
+Grab the latest zip from [releases](https://github.com/knnithyanand/oz-charts/releases), copy ```oz-charts.min.js``` to web root, and refer it from page.
 
 ```html
-<script src='path/to/js/angular-charts.min.js' type='text/javascript'></script>
+<script src='path/to/js/oz-charts.min.js' type='text/javascript'></script>
 ```
 Add as dependency in your module
 
 ```js
-angular.module('yourApp', ['angularCharts']);
+angular.module('yourApp', ['ozCharts']);
 ```
 **Dependencies**
 
@@ -28,14 +31,14 @@ angular.module('yourApp', ['angularCharts']);
 **Install using bower**
 
 ```js
-bower install angular-charts
+bower install oz-charts
 ```
 Refer all dependencies in your page in right order
 
 ```html
 <script src='./bower_components/angular/angular.min.js' type='text/javascript'></script>
 <script src='./bower_components/d3/d3.min.js' type='text/javascript'></script>
-<script src='./bower_components/angular-charts/dist/angular-charts.min.js' type='text/javascript'></script>
+<script src='./bower_components/oz-charts/dist/oz-charts.min.js' type='text/javascript'></script>
 ```
 
 ##Configuration
@@ -135,7 +138,7 @@ mouseout : function(d) {
 ```
 
 ## Contribute
-Thanks to all awesome [contributors](https://github.com/chinmaymk/angular-charts/network/members)
+Thanks to all awesome [contributors](https://github.com/knnithyanand/oz-charts/network/members)
 
 Some things to follow
 
@@ -144,9 +147,9 @@ Some things to follow
 3. Avoid any changes in data format
 4. Keep backwards compatibility
 
-**Note**: Please don't send any PRs until you see this. I'm refactoring angular-charts.
+**Note**: Please don't send any PRs until you see this. I'm refactoring oz-charts.
 
-    git clone git@github.com:chinmaymk/angular-charts.git
+    git clone git@github.com:knnithyanand/oz-charts.git
     npm install
     bower install
     grunt
@@ -156,7 +159,6 @@ To run tests:
     grunt karma
 
 ##Got suggestions ?
-Feel free to submit a pull request, file an issue, or get in touch on twitter [@_chinmaymk](https://twitter.com/_chinmaymk)
+Feel free to submit a pull request, file an issue, or get in touch on twitter [@knnithyanand](https://twitter.com/knnithyanand)
 
 License - MIT.
-[![Build Status](https://travis-ci.org/chinmaymk/angular-charts.svg?branch=master)](https://travis-ci.org/chinmaymk/angular-charts)

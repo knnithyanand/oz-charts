@@ -1,4 +1,4 @@
-angular.module('example', ['angularCharts']);
+angular.module('example', ['ozCharts']);
 
 function MainController($scope) {
 	$scope.data1 = {

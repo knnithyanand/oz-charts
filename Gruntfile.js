@@ -11,13 +11,13 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: ['build/*.js'],
-        dest: 'dist/angular-charts.js'
+        dest: 'dist/oz-charts.js'
       }
     },
     uglify : {
       dist: {
-        src: 'dist/angular-charts.js',
-        dest: 'dist/angular-charts.min.js'
+        src: 'dist/oz-charts.js',
+        dest: 'dist/oz-charts.min.js'
       }
     },
     clean : ["build"],
@@ -46,9 +46,9 @@ module.exports = function(grunt) {
     html2js: {
       options: {
         base : 'build',
-        module : 'angularChartsTemplates',
+        module : 'ozChartsTemplates',
         rename : function(name) {
-          return 'angularChartsTemplate_' + name.replace('.min.html', '');
+          return 'ozChartsTemplate_' + name.replace('.min.html', '');
         }
       },
       main: {
@@ -94,8 +94,8 @@ module.exports = function(grunt) {
     copy: {
       bowerPreRelease: {
         files: [
-          { src: 'dist/angular-charts.js', dest: 'dist/angular-charts.tmp.js' },
-          { src: 'dist/angular-charts.min.js', dest: 'dist/angular-charts.min.tmp.js' }
+          { src: 'dist/oz-charts.js', dest: 'dist/oz-charts.tmp.js' },
+          { src: 'dist/oz-charts.min.js', dest: 'dist/oz-charts.min.tmp.js' }
         ]
       }
     },
@@ -104,8 +104,8 @@ module.exports = function(grunt) {
         command: [
           'git checkout bower',
           'git checkout master -- bower.json',
-          'mv -f dist/angular-charts.tmp.js dist/angular-charts.js',
-          'mv -f dist/angular-charts.min.tmp.js dist/angular-charts.min.js',
+          'mv -f dist/oz-charts.tmp.js dist/oz-charts.js',
+          'mv -f dist/oz-charts.min.tmp.js dist/oz-charts.min.js',
           "git commit -am 'release <%= pkg.version %>'",
           'git tag <%= pkg.version %>'
         ].join('&&')

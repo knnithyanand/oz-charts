@@ -1,5 +1,5 @@
 {
-  "name": "angular-charts",
+  "name": "oz-charts",
   "version": "0.2.7",
   "description": "angular directives for common charts using d3, for more information visit",
   "main": "Gruntfile.js",
@@ -28,7 +28,7 @@
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
   },
-  "repository": "https://github.com/chinmaymk/angular-charts.git",
-  "author": "chinmaymk",
+  "repository": "https://github.com/knnithyanand/oz-charts.git",
+  "author": "knnithyanand",
   "license": "MIT"
 }

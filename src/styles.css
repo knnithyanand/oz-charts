@@ -1,32 +1,32 @@
-.angular-charts-template .axis path,
-.angular-charts-template .axis line {
+.oz-charts-template .axis path,
+.oz-charts-template .axis line {
     fill: none;
     stroke: #333;
 }
-.angular-charts-template .ac-title {
+.oz-charts-template .ac-title {
     font-weight: bold;
     font-size: 1.2em;
 }
-.angular-charts-template .ac-chart {
+.oz-charts-template .ac-chart {
     float: left;
     width: 75%;
 }
-.angular-charts-template .ac-line {
+.oz-charts-template .ac-line {
     fill: none;
     stroke-width: 2px;
 }
-.angular-charts-template table {
+.oz-charts-template table {
     float: left;
     max-width: 25%;
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
-.angular-charts-template td[ng-bind] {
+.oz-charts-template td[ng-bind] {
     display: inline-block;
 }
 
-.angular-charts-template .ac-legend-box {
+.oz-charts-template .ac-legend-box {
     border-radius: 5px;
     height: 15px;
     width: 15px;

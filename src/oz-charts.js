@@ -1,12 +1,12 @@
 /**
  * Main module
  */
-angular.module('angularCharts', ['angularChartsTemplates']);
+angular.module('ozCharts', ['ozChartsTemplates']);
 
 /**
  * Main directive handling drawing of all charts
  */
-angular.module('angularCharts').directive('acChart', function($templateCache, $compile, $rootElement, $window, $timeout, $sce) {
+angular.module('ozCharts').directive('acChart', function($templateCache, $compile, $rootElement, $window, $timeout, $sce) {
 
   var defaultColors = [
     'rgb(255,153,0)',
@@ -177,7 +177,7 @@ angular.module('angularCharts').directive('acChart', function($templateCache, $c
      * Creates appropriate DOM structure for legend + chart
      */
     function setContainers() {
-      var container = $templateCache.get('angularChartsTemplate_' + config.legend.position);
+      var container = $templateCache.get('ozChartsTemplate_' + config.legend.position);
       element.html(container); //http://stackoverflow.com/a/17883151
       $compile(element.contents())(scope);
 

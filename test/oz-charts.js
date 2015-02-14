@@ -1,9 +1,9 @@
-describe('angularCharts', function() {
+describe('ozCharts', function() {
   var $scope, $compile, $chart, $chart_childrens, body //we'll be working on a unique chart
     , numberOfPoints
 
   // load the charts code
-  beforeEach(module('angularCharts'));
+  beforeEach(module('ozCharts'));
 
   beforeEach(inject(function(_$rootScope_, _$compile_) {
     $scope = _$rootScope_
@@ -201,7 +201,7 @@ describe('angularCharts', function() {
 
       // Second style element should be Angular chart's styles.
       // They should be namespaced under the template's classes.
-      expect(styleElements[1].innerHTML).toContain('.angular-charts-template .axis path,.angular-charts-template .axis line{');
+      expect(styleElements[1].innerHTML).toContain('.oz-charts-template .axis path,.oz-charts-template .axis line{');
 
       // Third style element should be the one added in the test suite.
       expect(styleElements[2].innerHTML).toContain('#chart { width:150px;');

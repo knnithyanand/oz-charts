@@ -1,8 +1,8 @@
 {
-  "name": "angular-charts",
+  "name": "oz-charts",
   "version": "0.2.6",
   "authors": [
-    "chinmaymk"
+    "knnithyanand"
   ],
   "description": "angular directives for common charts using d3",
   "keywords": [
@@ -20,7 +20,7 @@
     "tests"
   ],
   "main": [
-    "./dist/angular-charts.js"
+    "./dist/oz-charts.js"
   ],
   "dependencies": {
     "d3": "~3.3.10",
